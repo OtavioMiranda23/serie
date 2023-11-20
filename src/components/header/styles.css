@@ -1,7 +1,73 @@
 .header {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+
     width: 100%;
     max-height: 73px;
+}
+.header .header-main {
+    display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.header .hamburguer-icon {
+    display: block;
+    cursor: pointer;
+}
+
+.header .header-icons {
+    display: none;
+}
+
+@media(min-width: 768px){
+    .header .header-icons {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .header .header-icons a{
+        display: flex;
+        padding: 6px;
+        align-items: center;
+        gap: 4px;
+        text-decoration: none;
+
+        background-color: #F5F5F5;
+    }
+    .header .header-icons span {
+        color: #000;
+    }
+    .search-mobile {
+        display:none !important;
+    }
+    .header .bag-mobile {
+        display:none !important;
+    }
+    .header .hamburguer-icon {
+        display: none !important;
+    }
+    .header .categories {
+        display: flex !important;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+.header .search-mobile {
+    display: block;
+}
+.header .bag-mobile {
+    display: block;
+}
+.header .categories {
+    display: none;
+}
+
+.header .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
 }
