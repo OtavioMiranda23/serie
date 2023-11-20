@@ -8,3 +8,15 @@
     max-width: 1170px;
     margin: 0 auto;
  }
+
+ .swiper-container {
+   height: 80vh;
+}
+.slide-item {
+   margin: 10px;
+}
+.slide-item img {
+   height: 100%;
+   object-fit: cover;
+   width: 100%;
+}
