@@ -1,0 +1,57 @@
+.footer {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer a {
+    color: #898989;
+    font-size: 0.875rem;
+}
+.footer a:hover {
+    color: #000;
+}
+.footer h3 {
+text-align: center;
+    font-size: 1.125rem;
+    font-weight: 500;
+    min-height: 32px;
+
+}
+.footer .footer-container {
+    margin: 8px 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;   
+}
+@media(min-width: 768px) {
+    .footer  {
+        flex-direction: row;
+    }
+    .footer-container {
+        display: flex;
+        flex-direction: row;
+    }
+}
+.footer .payments {
+    max-width: 318px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+.footer .payments .payments-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+}
+.footer .payments-title {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}

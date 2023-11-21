@@ -51,6 +51,7 @@
     .header .categories {
         display: flex !important;
         align-items: center;
+        height: 90%;
         gap: 10px;
     }
 }
@@ -70,4 +71,12 @@
     align-items: center;
     gap: 10px;
     text-decoration: none;
+}
+.categories a:hover  {
+    border-bottom: 1px solid #000;
+}
+iframe {
+    width: 100%;
+    max-width: 560px;
+    
 }

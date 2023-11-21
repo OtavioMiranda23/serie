@@ -39,7 +39,6 @@ export default function BrandBar() {
           <SwiperSlide>
             <img src="./src/assets/BrandRivalry.png" alt="Logo Rivalry" />
           </SwiperSlide>
-          ...
         </Swiper>
       </div>
     </section>

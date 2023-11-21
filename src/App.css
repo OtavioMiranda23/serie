@@ -2,3 +2,76 @@
     display: block;
     width: 100%;
 }
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+.showcase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+}
+.showcase h2{
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+.showcase span{
+    cursor: pointer;
+    color: #C7C7C7;
+    font-size: 0.875rem;
+    font-weight: 700;
+
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.video span {
+    margin: 16px 0;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+.medias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.medias path {
+    cursor: pointer;
+    fill: #C7C7C7;
+    transition: fill 0.2s ease-in-out;
+}
+.medias path:hover {
+    fill: #000;
+}
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+ }
+ @media(min-width: 768px) {
+    .contact-container {
+       flex-direction: row;
+    }
+ }
+.credits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    color: #898989;
+    font-size: 0.75rem;
+}
+.credits a {
+    cursor: pointer;
+    color: #000;
+    font-size: 0.75rem;
+}
